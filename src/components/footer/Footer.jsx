@@ -21,9 +21,9 @@ const Footer = () => {
         <li>
           <a href="#experiance">Мой опыт</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services"> Услуги</a>
-        </li>
+        </li> */}
         <li>
           <a href="#portfolio">Портфолио</a>
         </li>

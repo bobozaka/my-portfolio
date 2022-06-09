@@ -2,7 +2,7 @@ import React from 'react';
 import { MdOutlineHome } from 'react-icons/md';
 import { FaUserNinja } from 'react-icons/fa';
 import { GiEvilBook } from 'react-icons/gi';
-import { RiServiceLine } from 'react-icons/ri';
+// import { RiServiceLine } from 'react-icons/ri';
 import { IoIosContact } from 'react-icons/io';
 import { useState } from 'react';
 import './Nav.css';
@@ -27,12 +27,12 @@ const Nav = () => {
         className={activeNav === '#experiance' ? 'active' : ''}>
         <GiEvilBook />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}>
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav('#contact')}
