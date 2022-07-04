@@ -4,6 +4,7 @@ import Cat from '../../assets/cat.png';
 import ToDoList from '../../assets/toDolist.png';
 import Lagoona from '../../assets/logona.png';
 import Evclid from '../../assets/evclid.png';
+import Blog from '../../assets/Blog.png';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -13,6 +14,27 @@ const Portfolio = () => {
       <h2>Портфолио</h2>
       <div className="container portfolio__container">
         <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={Blog} alt="pizza" />
+          </div>
+          <h3>Blog</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/bobozaka/blog-mern-front"
+              className="btn"
+              target="_blank"
+              rel="noreferrer">
+              Github
+            </a>
+            <a
+              href="https://blog-mern-frontend-sigma.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article><article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={Pizza} alt="pizza" />
           </div>
