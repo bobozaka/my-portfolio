@@ -5,6 +5,7 @@ import ToDoList from '../../assets/toDolist.png';
 import Lagoona from '../../assets/logona.png';
 import Evclid from '../../assets/evclid.png';
 import Blog from '../../assets/Blog.png';
+import Jpan from '../../assets/jpan.png';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -15,7 +16,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Blog} alt="pizza" />
+            <img src={Blog} alt="blpg" />
           </div>
           <h3>Blog</h3>
           <div className="portfolio__item-cta">
@@ -34,7 +35,8 @@ const Portfolio = () => {
               Live Demo
             </a>
           </div>
-        </article><article className="portfolio__item">
+        </article>
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={Pizza} alt="pizza" />
           </div>
@@ -58,11 +60,10 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Cat} alt="pizza" />
+            <img src={Cat} alt="cat" />
           </div>
           <h3>Кошачий пинтерест</h3>
           <div className="portfolio__item-cta">
-            {' '}
             <a
               href="https://github.com/bobozaka/frontend-challenge-uzi.ru"
               className="btn"
@@ -81,7 +82,29 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={ToDoList} alt="pizza" />
+            <img src={Jpan} alt="Japanese-cuisine" />
+          </div>
+          <h3>Японская кухня</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/bobozaka/Japanese-cuisine"
+              className="btn"
+              target="_blank"
+              rel="noreferrer">
+              Github
+            </a>
+            <a
+              href="https://japanese-5fobx9zkm-bobozaka.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={ToDoList} alt="ToDoList" />
           </div>
           <h3>ToDoList</h3>
           <div className="portfolio__item-cta">
@@ -104,7 +127,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Lagoona} alt="pizza" />
+            <img src={Lagoona} alt="Lagoona" />
           </div>
           <h3>Lagoona</h3>
           <div className="portfolio__item-cta">
@@ -127,7 +150,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Evclid} alt="pizza" />
+            <img src={Evclid} alt="Evclid" />
           </div>
           <h3>Евклид</h3>
           <div className="portfolio__item-cta">
