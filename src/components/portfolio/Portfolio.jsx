@@ -6,6 +6,8 @@ import Lagoona from '../../assets/logona.png';
 import Evclid from '../../assets/evclid.png';
 import Blog from '../../assets/Blog.png';
 import Jpan from '../../assets/jpan.png';
+import Pet from '../../assets/img/pet.jpeg';
+import Hotel from '../../assets/React-hotel-spa.png';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -29,6 +31,51 @@ const Portfolio = () => {
             </a>
             <a
               href="https://blog-mern-frontend-sigma.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={Pet} alt="blpg" />
+          </div>
+          <h3>Pet-first</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/bobozaka/pet-first"
+              className="btn"
+              target="_blank"
+              rel="noreferrer">
+              Github
+            </a>
+            <a
+              href="https://pet-first-30n9aqsl7-bobozaka.vercel.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={Hotel} alt="blpg" />
+          </div>
+          <h3>React-hotel-spa
+</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/bobozaka/hotel-spa-react"
+              className="btn"
+              target="_blank"
+              rel="noreferrer">
+              Github
+            </a>
+            <a
+              href="https://hotel-spa-react-m39kh59y1-bobozaka.vercel.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer">
